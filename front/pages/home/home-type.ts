@@ -1,4 +1,4 @@
-import { IUser } from '../../../back/scheme/user';
+import { IUser } from '../../../back/database/schemes/user';
 
 export interface IHomeState {
   user?: IUser;

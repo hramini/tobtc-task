@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-import { IUser } from '../../scheme/user';
+import { IUser } from '../schemes/user';
 
 const userSchema = new Schema<IUser>({
   username: String,
