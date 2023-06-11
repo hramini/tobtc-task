@@ -48,7 +48,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: join(__dirname, './src'),
+      directory: join(__dirname, './front'),
     },
     port: 4000,
     devMiddleware: {

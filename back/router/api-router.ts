@@ -3,7 +3,7 @@ import {
   addNewUser,
   getFirstUser,
   updateUser,
-} from '../database/controller/user-controller';
+} from '../database/controllers/user-controller';
 
 export const apiRouter = Router();
 
